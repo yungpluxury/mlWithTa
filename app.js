@@ -24,7 +24,7 @@ const options = {
 const client = new pg.Client({
     user: 'postgres',
     host: '172.16.117.159',
-    database: 'Weather_prod',
+    database: 'weather_prod',
     password: 'root',
     port: 5432,
 });
