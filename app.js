@@ -234,7 +234,7 @@ function endFuction() {
 }
 
 
-let timerId = setInterval(() => endFuction(), 6000);
+let timerId = setInterval(() => endFuction(), 600000);
 
 
 app.listen(PORT, () => {
