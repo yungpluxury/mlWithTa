@@ -286,7 +286,7 @@ fetchDataTomorroyApi();
 }
 
 
-let timerId = setInterval(() => endFuction(), 3600000);
+let timerId = setInterval(() => endFuction(), 6000);
 
 
 app.listen(PORT, () => {
