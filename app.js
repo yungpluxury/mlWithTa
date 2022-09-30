@@ -10,7 +10,7 @@ const app = express();
 
 const options = {
   origin: [
-    'http://localhost:3090',
+    'http://localhost:3039',
   ],
   methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
   preflightContinue: false,
@@ -31,7 +31,7 @@ client.connect();
 
 app.use(cors(options));
 
-const { PORT = 3090 } = process.env;
+const { PORT = 3039 } = process.env;
 
 const cordHibin = {
   lat: 67.670036,
