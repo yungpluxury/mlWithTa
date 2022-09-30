@@ -10,7 +10,7 @@ const app = express();
 
 const options = {
   origin: [
-    'http://localhost:3000',
+    'http://localhost:3090',
   ],
   methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE'],
   preflightContinue: false,
