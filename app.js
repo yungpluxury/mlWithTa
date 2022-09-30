@@ -31,7 +31,7 @@ client.connect();
 
 app.use(cors(options));
 
-const { PORT = 3003 } = process.env;
+const { PORT = 3090 } = process.env;
 
 const cordHibin = {
   lat: 67.670036,
