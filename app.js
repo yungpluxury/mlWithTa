@@ -47,7 +47,10 @@ function fetchDataTomorroyApi() {
 const getTimelineURL = "https://api.tomorrow.io/v4/timelines";
 
 // // get your key from app.tomorrow.io/development/keys
-const apikey = "sCUblc1wePiFH49ZtaUla6zoB0N62pCv";
+const apikey = "6FNWacXVb5cftnpon1vp6Ld6xeQoQXQY";
+
+// sCUblc1wePiFH49ZtaUla6zoB0N62pCv
+
 
 // // pick the location, as a latlong pair
 let location = [67.670036, 33.687525];
